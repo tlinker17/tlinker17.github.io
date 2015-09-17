@@ -25,4 +25,21 @@ tr:nth-child(even){
 p:first-child{
             background-color: darkgray;
         }
-td
+td:nth-child{
+            color:green;
+        }
+a:hover{
+            background-color:aqua;
+        }
+li{
+            text-decoration: none;
+        }
+.one{
+            color: blue;
+        }
+.two{
+            font-size; 14px;
+        }
+.three{
+            background-color: aquamarine;
+        }
