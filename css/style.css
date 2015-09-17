@@ -1,0 +1,28 @@
+ .container{
+            width: 50%;
+            margin:0 auto;
+        }
+.left{
+            float:left;
+            width: 40%;
+            background-color:aqua;
+            font-family: serif;
+            color:darkmagenta;
+        }
+.right{
+            float:left;
+            width: 40%;
+            margin-left:10%;
+        }
+table,tr,td{
+            border: 2px solid black;
+            padding: 5px;
+        }
+tr:nth-child(even){
+            background-color: dimgray;
+            color:aqua;
+        }
+p:first-child{
+            background-color: darkgray;
+        }
+td
