@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    font-size: 14px;
+    width:65%;
+    border-top:1px solid black;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:5px;
+}
+
+.bacon-info {
+    color: black;
+}
+
+.bacon-answer {
+    color: black;
+    font-family: "Times New Roman";
+}
