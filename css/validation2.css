@@ -22,3 +22,6 @@ table, tr, td, th {
     color: black;
     font-family: "Times New Roman";
 }
+p{
+    width:50%;
+}
