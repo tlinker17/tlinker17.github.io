@@ -24,4 +24,5 @@ table, tr, td, th {
 }
 p{
     width:50%;
+    margin:0 auto;
 }
