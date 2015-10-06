@@ -9,6 +9,12 @@ body {
 div{
  padding: 15px 20px;   
 }
+table, tr, th, td{
+    border:1px solid white;
+    padding:10px;
+    border-collapse:collapse;
+}
+}
 .main-content {
     width: 1000px;
     margin: 0 auto;
