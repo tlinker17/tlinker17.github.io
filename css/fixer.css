@@ -1,8 +1,14 @@
 body {
-    background: grey;
-    color: white;
+    background: #808080;
+    color: black;
+    font-size: 32px;
+    width:80%;
+    margin:0 auto;
+    line-height: 1.5;
 }
-
+div{
+ padding: 15px 20px;   
+}
 .main-content {
     width: 1000px;
     margin: 0 auto;
@@ -21,7 +27,12 @@ body {
     background: blue;
     color: white;
 }
-
+.dodgers a{
+    color:white;
+}
+.dodgers a:visited{
+    color:white;
+}
 .cubs {
     
 }
@@ -44,4 +55,7 @@ a:visited{
 }
 a{
  color:black;   
+}
+.table-container{
+ color:white;
 }
