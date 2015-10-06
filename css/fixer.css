@@ -1,0 +1,47 @@
+body {
+    background: grey;
+    color: white;
+}
+
+.main-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.mets {
+    background: orange;
+    color: black;
+}
+
+.dodgers {
+    background: blue;
+    color: white;
+}
+
+.cubs {
+    
+}
+
+.pittsburgh {
+    background: yellow;
+    color: black;
+}
+
+.cardinals {
+    background: #fc7979;
+    color:black;
+}
+
+.table-container {
+    background: black;
+}
+a:visited{
+    color:black;   
+}
+a{
+ color:black;   
+}
