@@ -1,0 +1,158 @@
+.main {
+    width:1920px;
+}
+img.main{
+    margin:auto;
+    width:600px;
+    height:600px;
+    padding-left:660px;
+}
+a.a{
+    background-color: grey;
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    padding-top: 27px;
+    margin: 1px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 229px;
+    margin-right: 229px;
+}
+a.b{
+    background-color: grey;
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding-top: 27px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 229px;
+    margin-right: 229px;
+}
+a.c{
+    background-color: grey;
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    padding-top: 27px;
+    margin: 1px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 709px;
+    margin-right: 70--9px;
+}
+.banks{
+    width:1920px;
+    margin-left:340px;
+    margin-top:100px;
+}
+img.bank{
+    display:inline-block;
+    
+}
+h1.topPick{
+    text-align: center;
+    font-size: 70px;
+}
+img.quiz{
+    padding-left:359px;
+}
+h1.quiz{
+    text-align: center;
+    font-size: 50px;
+}
+.top{
+    width:1920px; 
+    clear: both;
+    border-bottom: solid black 3px;
+}
+.topImg{
+    display:inline-block;
+    padding-left:50px;
+    float:left;
+    margin:auto;
+    margin-top:10px;
+}
+h1.topH1{
+    display:inline-block;
+    font-size: 60px;
+    padding-left:360px;
+    padding-right:360px;
+}
+.topIcon{
+    display:inline-block;
+    margin-top:10px;
+}
+.inputs{
+    display:inline-block;   
+}
+input.input1, .input2, .input3{
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+.nav{
+    width:1920px;
+    clear:both;
+    border-bottom:solid black 3px;
+    padding-bottom: 20px
+}
+.navb{
+    background-color: gainsboro;
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    padding-top: 27px;
+    margin: 1px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left:10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.input4{
+    padding: 10px 100px;
+    float:right;
+    margin-top: 35px;
+    margin-right: 100px;
+}
+.middle{
+    width:1920px;
+    clear:both;
+}
+.midImg{
+    padding:50px 100px 50px 100px;
+    float:left;   
+}
+.middleP{
+    clear:right;
+    float:left;
+    padding-top: 200px;
+}
+h2{
+    font-size: 48px;
+    text-align:center;
+}
+p{
+    font-size:32x; 
+    text-align: center;
+}
+.bottom{
+    clear:both; 
+    padding-left:30px;
+    padding-top: 50px;
+    border-top:solid black 3px;
+}
