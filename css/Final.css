@@ -1,5 +1,9 @@
 .main {
-    width:1920px;
+    width:100%;
+}
+.siteWidth{
+    width:90%;
+    margin:0 auto;
 }
 img.main{
     margin:auto;
@@ -72,45 +76,45 @@ h1.quiz{
     font-size: 50px;
 }
 .top{
-    width:1920px; 
+    width:90%; 
     clear: both;
     border-bottom: solid black 3px;
 }
 .topImg{
     display:inline-block;
-    padding-left:50px;
+    padding-left:1%;
     float:left;
     margin:auto;
-    margin-top:10px;
+    margin-top:2%;
 }
 h1.topH1{
     display:inline-block;
     font-size: 60px;
-    padding-left:360px;
-    padding-right:360px;
+    padding-left:15%;
+    padding-right:15%;
 }
 .topIcon{
     display:inline-block;
-    margin-top:10px;
+    margin-top:2%;
 }
 .inputs{
     display:inline-block;   
 }
 input.input1, .input2, .input3{
-    margin-bottom:10px;
-    margin-left: 10px;
+    margin-bottom:5%;
+    margin-left: 5%;
 }
 .nav{
-    width:1920px;
+    width:90%;
     clear:both;
     border-bottom:solid black 3px;
-    padding-bottom: 20px
+    padding-bottom: 1%;
 }
 .navb{
     background-color: gainsboro;
     display: inline-block;
-    width: 250px;
-    height: 40px;
+    width: 13%;
+    height: 1%;
     text-align: center;
     text-decoration: none;
     font-size: 28px;
@@ -124,35 +128,138 @@ input.input1, .input2, .input3{
     
 }
 .input4{
-    padding: 10px 100px;
+    padding: .4% 3%;
     float:right;
-    margin-top: 35px;
-    margin-right: 100px;
+    margin-top: 1.5%;
+    margin-right: 4%;
 }
 .middle{
-    width:1920px;
+    width:90%;
     clear:both;
 }
 .midImg{
-    padding:50px 100px 50px 100px;
-    float:left;   
+    padding:3% 3%; 
+    float:left;
 }
 .middleP{
     clear:right;
     float:left;
-    padding-top: 200px;
+    padding-top: 10%;
 }
 h2{
-    font-size: 48px;
+    font-size: 42px;
     text-align:center;
 }
 p{
-    font-size:32x; 
+    font-size:18px; 
     text-align: center;
 }
 .bottom{
+    width:90%;
     clear:both; 
-    padding-left:30px;
-    padding-top: 50px;
+    padding-top:3%;
     border-top:solid black 3px;
+}
+img.bank2{
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+@media (max-width:1400px){
+    h1.topH1{
+        font-size:40px;
+        padding-left:7%;
+        padding-right:7%;
+    }
+    .input4{
+        padding: .3% 1%;
+        margin-top: 2.5%;
+        margin-right: 4%; 
+    }
+    .navb{
+    background-color: gainsboro;
+    display: inline-block;
+    width: 13%;
+    height: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    padding-top: 27px;
+    margin: 1px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    }
+    .midImg{
+        clear:both;
+        float:none;
+        margin: 3% 10%;   
+    }
+    .middleP{
+        clear:both;
+        padding:0;
+        margin-left:22%;
+        padding-bottom:3%;  
+    }
+    img.bank2{
+        padding:5%;
+    }
+    .bottom{
+        padding:0;
+        padding-top:1%;
+    }
+    .botMedia{
+        padding-left:13%   
+    }
+}
+@media (max-width:1300px){
+    h1.topH1{
+        font-size:30px;
+        padding-left:2%;
+        padding-right:2%;
+    }
+    .input4{
+        display:none;   
+    }
+    .navb{
+    background-color: gainsboro;
+    display: inline-block;
+    width: 17%;
+    height: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    color: white;
+    padding-top: 27px;
+    margin: 1px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    }
+    .midImg{
+        clear:both;
+        float:none;
+        margin:0;
+        padding:0;
+        padding-top:3%;
+        padding-left:.5%;
+    }
+    .middleP{
+        clear:both;
+        padding:0;
+        margin-left:11%;
+        padding-bottom:3%;  
+    }
+    img.bank2{
+        padding:3%;
+    }
+    .bottom{
+        padding:0;
+        padding-top:1%;
+    }
+    .botMedia{
+        padding-left:7%   
+    }
 }
