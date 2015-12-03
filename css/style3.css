@@ -1,0 +1,10 @@
+.main{
+    width:900px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color:beige;
+    padding: 100px 100px;
+    border-left: solid black 3px;
+    border-right: solid black 3px;
+    height:1080px;
+}
